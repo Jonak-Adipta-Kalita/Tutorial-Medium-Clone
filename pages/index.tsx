@@ -6,7 +6,7 @@ import { sanityClient } from "../sanity";
 import { Post } from "../typing";
 
 interface Props {
-  posts: Post[];
+  posts: [Post];
 }
 
 const Home = ({ posts }: Props) => {
